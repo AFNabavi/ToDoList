@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(201, 246, 231);
+}
+
+#h2 span {
+    font-size: larger;
+}
+
+#add-btn-div {
+    text-align: center;
+}
+
+#add-btn {
+    position: absolute;
+}
+
+.item {
+    background-color: antiquewhite;
+    border: 2px solid gold;
+    margin: 12px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.done {
+    margin: 0px 10px 0px 7px;
+}
+
+.task-has-done {
+    background-color: rgb(203, 190, 173);
+    font-style: oblique;
+}
+
+.task {
+    display: inline-block;
+}
+
+.btns {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-btn {
+    border-color: red;
+    margin: 3px;
+}
+
+.del-btn {
+    border-color: red;
+    margin: 3px;
+}
+
+.addTask {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 8px;
+    display: inline-flex;
+}
+
+.textInp {
+    border: 0px solid;
+    background-color: rgb(240, 255, 240); 
+}
